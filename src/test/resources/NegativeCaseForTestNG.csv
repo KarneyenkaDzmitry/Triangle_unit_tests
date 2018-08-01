@@ -1,0 +1,18 @@
+Side -a;Side -b;Side -c;Expected result of detectedTriangle();Expected result of getSquare()
+0;0;0;Exception;Exception
+10;3;2;Exception;Exception
+5;12;4;Exception;Exception
+20;20;51;Exception;Exception
+1;1;0;Exception;Exception
+1;0;1;Exception;Exception
+0;1;1;Exception;Exception
+-5;4;3;Exception;Exception
+4;3;-5;Exception;Exception
+3;-5;4;Exception;Exception
+5;5;12;Exception;Exception
+max;max;1;Exception;Exception
+max;max;max;Exception;Exception
+max;500;400;Exception;Exception
+400;max;500;Exception;Exception
+nan;5;5;Exception;Exception
+infinity;5;5;Exception;Exception
